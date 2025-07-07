@@ -5,7 +5,7 @@ const {
   getProductById,
   updateProduct,
   deleteProduct,
-} = require("../controllers/productcontroller");
+} = require("../controllers/productController");
 const validateProduct = require("../utils/validateProduct");
 
 const productRoutes = express.Router();
